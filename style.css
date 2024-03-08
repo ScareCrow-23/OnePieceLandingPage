@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans&display=swap');
+
+/* font-family: 'Playpen Sans', cursive; */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Playpen Sans', cursive;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+}
+#nav{
+    position: relative;
+    padding: 2vw 10vw;
+    display: flex;
+    justify-content: space-between;
+}
+#nav a{
+    display: inline-block;
+    font-weight: 800;
+    color: black;
+    text-decoration: none;
+    padding: 1.5vw;
+    font-size: 13px;
+}
+#nav #centeratag{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0vw 10vw;
+    margin-top: 15vw;
+}
+#sustain{
+    width: 10vw;
+}
+#sustain p{
+    text-transform: capitalize;
+    opacity: 0.5;
+    font-weight: 800;
+    font-size: 12px;
+    margin: 10px 0;
+}
+#sustain #susimagewrapper{
+    width: 100%;
+    /* background-color: aqua; */
+    height: 17vw;
+}
+#susimagewrapper img{
+    width: 100%;
+    height: 100%;
+}
+#luffy{
+    position: relative;
+    width: 30vw;
+    min-height: 40vw;
+    /* background-color: red; */
+}
+#luffy #headings{
+    top: -15%;
+    left: -10%;
+    position: absolute;
+}
+#luffy h1{
+    font-size: 6vw;
+    font-weight: 100;
+    letter-spacing: -.4vw;
+    line-height: 1;
+    font-weight: 400;
+}
+#luffy img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#luffy p{
+    font-size: 1.5vw;
+    width: 50%;
+    font-weight: 800;
+}
+#imageandtext{
+    width: fit-content;
+    height: fit-content;
+}
+#visit{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+#circlev{
+    width: 3vw;
+    height: 3vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgb(135, 130, 130);
+    border-radius: 50%;
+}
+#circlev i{
+    color: rgb(135, 130, 130);
+    font-weight: 200;
+}
+#visit h3{
+    color: rgb(135, 130, 130);
+
+}
+#motive{
+    margin-top: 8vw;
+    display: flex;
+    justify-content: space-between;
+    padding: 3vw 10vw;
+}
+#motive h3{
+    font-size: 1.5vw;
+}
+#motive p{
+    position: relative;
+    right: 0;
+    text-align: right;
+    font-size: 1.5vw;
+    width: 80%;
+    letter-spacing: -.12vw;
+}
+#motive span{
+    display: inline-block;
+    border-radius: 100px;
+    margin: 0 10px;
+    margin-bottom: -12.5px;
+}
+#onespan{
+    width: 80px;
+    height: 40px;
+    background-image: url(Images/Gold-Roger.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#twospan{
+    width: 90px;
+    height: 40px;
+    background-image: url(Images/The-great-pirate-era.gif);
+    background-size: cover;
+    background-position: center;
+}
+#threespan{
+    width: 80px;
+    height: 40px;
+    background-image: url(Images/One-Piece-title.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#pictures{
+    margin-top: 8vw;
+    padding: 3vw;
+    padding-left: 14vw;
+    padding-right: 12vw;
+    display: flex;
+    justify-content: space-between;
+}
+#nami{
+    width: 17vw;
+}
+#nami p, #robin p{
+    font-size: 12px;
+    margin-top: 10px;
+}
+#nami #namiimg{
+    width: 100%;
+    height: 38vw;
+    background-color: red;
+    margin-bottom: 1vw;
+}
+#namiimg img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#robin{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    width: 20vw;
+}
+#robin #robinimg{
+    width: 100%;
+    height: 50vw;
+    background-color: red;
+    margin-bottom: 1vw;
+}
+#robinimg img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#robin p{
+    text-align: right;
+}
+#banner{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-top: 8vw;
+    margin-bottom: 8vw;
+}
+#bimg{
+    width: 70%;
+    height: 75vh;
+    /* background-color: rebeccapurple; */
+}
+#bimg img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#btext{
+    width: 30%;
+    padding: 0 2vw;
+}
+#btext h1{
+    font-size: 2vw;
+    font-weight: 500;
+}
+#btext p{
+    margin-top: 20px;
+    width: 60%;
+}
+#future{
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+}
+#future video{
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+#ftext{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    z-index: 99;
+}
+#ftext button{
+    padding: .9vw 1.2vw;
+    font-size: .7vw;
+    cursor: pointer;
+    font-weight: 500;
+    border-radius: 100px;
+    background-color: #383232;
+    text-transform: capitalize;
+    color: white;
+    margin-top: 10px;
+}
